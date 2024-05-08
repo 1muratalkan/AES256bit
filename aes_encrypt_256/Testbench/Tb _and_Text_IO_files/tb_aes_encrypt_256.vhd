@@ -54,6 +54,9 @@ constant ECBVarKey256_FILE_RD   :string  := "/home/murat/Documents/Uygulamalar/v
 constant ECBVarTxt256_FILE_RD   :string  := "/home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/ECBVarTxt256.txt";
 constant ECBKeySbox256_FILE_RD  :string  := "/home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/ECBKeySbox256.txt";
 
+
+ 
+
 begin
 
     aes_encrypt_256_port : aes_encrypt_256
@@ -104,7 +107,38 @@ begin
         variable    str_plain               : string(1 to 12);             
         variable    str_cipher              : string(1 to 13);                                 
    
+    procedure test_procedure is
     begin
+            plain_text_i <= PLAINTEXT;
+            plain_text_vld_i <= '1';  
+            wait for clk_period;
+            plain_text_i <= (others => '0');
+            plain_text_vld_i <= '0';
+            wait for clk_period;
+            key_vld_i <= '1';
+            key_i <= KEY(255 downto 128);--  
+            wait for clk_period;
+            key_i <= KEY(127 downto 0);--
+            key_vld_i <= '1';
+            wait for clk_period;
+            key_i <= (others => '0');
+            key_vld_i <= '0';
+            wait for clk_period*15;     
+            cipher_text_ready_i <= '1';
+            wait for clk_period;
+            wait for clk_period;
+            cipher_text_ready_i <= '0'; 
+            wait for clk_period;
+
+    end procedure;
+
+   
+   
+   
+   
+   
+    begin
+
 
         reset_i <= '1';
         wait for clk_period;
@@ -153,31 +187,7 @@ begin
                          readline(input_file, input_line);        
                  end if;
                  
-            ------------------------------------------------------------------------------------------------------------------
-            --TEMEL TEST BENCH YAPISI
-            ------------------------------------------------------------------------------------------------------------------
-            plain_text_i <= PLAINTEXT;
-            plain_text_vld_i <= '1';  
-            wait for clk_period;
-            plain_text_i <= (others => '0');
-            plain_text_vld_i <= '0';
-            wait for clk_period;
-            key_vld_i <= '1';
-            key_i <= KEY(255 downto 128);--  
-            wait for clk_period;
-            key_i <= KEY(127 downto 0);--
-            key_vld_i <= '1';
-            wait for clk_period;
-            key_i <= (others => '0');
-            key_vld_i <= '0';
-            wait for clk_period*15;     
-            cipher_text_ready_i <= '1';
-            wait for clk_period;
-            wait for clk_period;
-            
-            cipher_text_ready_i <= '0'; 
-            wait for clk_period;
-                      
+            test_procedure;
 
             if cipher_text_o = CIPHERTEXT then
                 report "Test_vectors file " & integer'image(COUNT) & ": SUCCESSFUL";
@@ -231,13 +241,8 @@ begin
                          readline(VEC_ECBGFSbox256_FILE_RD, input_line);
                                
                  end if;         
-            ------------------------------------------------------------------------------------------------------------------
-            --TEMEL TEST BENCH YAPISI
-            ------------------------------------------------------------------------------------------------------------------
-            plain_text_i <= PLAINTEXT; plain_text_vld_i <= '1';  wait for clk_period; plain_text_i <= (others => '0'); plain_text_vld_i <= '0';
-            wait for clk_period; key_vld_i <= '1'; key_i <= KEY(255 downto 128);  wait for clk_period; key_i <= KEY(127 downto 0); key_vld_i <= '1';
-            wait for clk_period; key_i <= (others => '0');  key_vld_i <= '0'; wait for clk_period*15; cipher_text_ready_i <= '1'; wait for clk_period*2;
-            cipher_text_ready_i <= '0'; wait for clk_period;
+                
+                test_procedure;
             
             if cipher_text_o = CIPHERTEXT then
                 report "ECBGFSbox256 file " & integer'image(COUNT) & ": SUCCESSFUL";
@@ -289,13 +294,8 @@ begin
                          readline(VEC_ECBVarKey256_FILE_RD, input_line);
                                
                  end if;
-            ------------------------------------------------------------------------------------------------------------------
-            --TEMEL TEST BENCH YAPISI
-            ------------------------------------------------------------------------------------------------------------------
-            plain_text_i <= PLAINTEXT; plain_text_vld_i <= '1';  wait for clk_period; plain_text_i <= (others => '0'); plain_text_vld_i <= '0';
-            wait for clk_period; key_vld_i <= '1'; key_i <= KEY(255 downto 128);  wait for clk_period; key_i <= KEY(127 downto 0); key_vld_i <= '1';
-            wait for clk_period; key_i <= (others => '0');  key_vld_i <= '0'; wait for clk_period*15; cipher_text_ready_i <= '1'; wait for clk_period*2;
-            cipher_text_ready_i <= '0'; wait for clk_period;
+                
+                test_procedure;
             
             if cipher_text_o = CIPHERTEXT then
                 report "ECBVarKey256 file " & integer'image(COUNT) & ": SUCCESSFUL";
@@ -349,13 +349,8 @@ begin
                          readline(VEC_ECBVarTxt256_FILE_RD, input_line);
                                
                  end if;
-            ------------------------------------------------------------------------------------------------------------------
-            --TEMEL TEST BENCH YAPISI
-            ------------------------------------------------------------------------------------------------------------------
-            plain_text_i <= PLAINTEXT; plain_text_vld_i <= '1';  wait for clk_period; plain_text_i <= (others => '0'); plain_text_vld_i <= '0';
-            wait for clk_period; key_vld_i <= '1'; key_i <= KEY(255 downto 128);  wait for clk_period; key_i <= KEY(127 downto 0); key_vld_i <= '1';
-            wait for clk_period; key_i <= (others => '0');  key_vld_i <= '0'; wait for clk_period*15; cipher_text_ready_i <= '1'; wait for clk_period*2;
-            cipher_text_ready_i <= '0'; wait for clk_period;
+
+            test_procedure;
             
             if cipher_text_o = CIPHERTEXT then
                 report "ECBVarTxt256 file " & integer'image(COUNT) & ": SUCCESSFUL";
@@ -406,13 +401,8 @@ begin
                          readline(VEC_ECBKeySbox256_FILE_RD, input_line);
                                
                  end if;      
-            ------------------------------------------------------------------------------------------------------------------
-            --TEMEL TEST BENCH YAPISI
-            ------------------------------------------------------------------------------------------------------------------
-            plain_text_i <= PLAINTEXT; plain_text_vld_i <= '1';  wait for clk_period; plain_text_i <= (others => '0'); plain_text_vld_i <= '0';
-            wait for clk_period; key_vld_i <= '1'; key_i <= KEY(255 downto 128);  wait for clk_period; key_i <= KEY(127 downto 0); key_vld_i <= '1';
-            wait for clk_period; key_i <= (others => '0');  key_vld_i <= '0'; wait for clk_period*15; cipher_text_ready_i <= '1'; wait for clk_period*2;
-            cipher_text_ready_i <= '0'; wait for clk_period;
+                
+                test_procedure;
             
             if cipher_text_o = CIPHERTEXT then
                 report "ECBKeySbox256 file " & integer'image(COUNT) & ": SUCCESSFUL";
