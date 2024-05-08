@@ -1,0 +1,15 @@
+# CAVS 11.1
+# Config info for aes_values
+# AESVS VarKey test data for ECB
+# State : Encrypt
+# Key Length : 256
+# Generated on Fri Apr 22 15:11:30 2011
+
+[ENCRYPT]
+
+COUNT = 0
+KEY = 4a7fe4b0a37655f58f10a86b919e8efe1310353fe4c6e79166cc3243c76dacaf
+PLAINTEXT = e8f3ec31b9b3c58ced6b80ab8532b1d2
+CIPHERTEXT = 5c4fb5d6667a5ceca0ae8e4590097201
+
+[DECRYPT]

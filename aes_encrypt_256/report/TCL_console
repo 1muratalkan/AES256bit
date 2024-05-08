@@ -1,0 +1,847 @@
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_aes_encrypt_256' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.sim/sim_1/behav/xsim/test_vectors.txt'
+INFO: [SIM-utils-43] Exported '/home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.sim/sim_1/behav/xsim/ECBKeySbox256.txt'
+INFO: [SIM-utils-43] Exported '/home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.sim/sim_1/behav/xsim/ECBVarTxt256.txt'
+INFO: [SIM-utils-43] Exported '/home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.sim/sim_1/behav/xsim/ECBVarKey256.txt'
+INFO: [SIM-utils-43] Exported '/home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.sim/sim_1/behav/xsim/ECBGFSbox256.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.sim/sim_1/behav/xsim'
+xvhdl --incr --relax -prj tb_aes_encrypt_256_vhdl.prj
+INFO: [USF-XSim-69] 'compile' step finished in '0' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /home/murat/Documents/Uygulamalar/vivado/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 1eeb5e81e9714c5f995365fa30a1e2a0 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot tb_aes_encrypt_256_behav xil_defaultlib.tb_aes_encrypt_256 -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Note: Test_vectors file 0: SUCCESSFUL
+Time: 240 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBGFSbox256 file 0: SUCCESSFUL
+Time: 460 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBGFSbox256 file 1: SUCCESSFUL
+Time: 680 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBGFSbox256 file 2: SUCCESSFUL
+Time: 900 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+run all
+Note: ECBGFSbox256 file 3: SUCCESSFUL
+Time: 1120 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBGFSbox256 file 4: SUCCESSFUL
+Time: 1340 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 0: SUCCESSFUL
+Time: 1560 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 1: SUCCESSFUL
+Time: 1780 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 2: SUCCESSFUL
+Time: 2 us  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 3: SUCCESSFUL
+Time: 2220 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 4: SUCCESSFUL
+Time: 2440 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 5: SUCCESSFUL
+Time: 2660 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 6: SUCCESSFUL
+Time: 2880 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 7: SUCCESSFUL
+Time: 3100 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 8: SUCCESSFUL
+Time: 3320 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 9: SUCCESSFUL
+Time: 3540 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 10: SUCCESSFUL
+Time: 3760 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 11: SUCCESSFUL
+Time: 3980 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 12: SUCCESSFUL
+Time: 4200 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 13: SUCCESSFUL
+Time: 4420 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 14: SUCCESSFUL
+Time: 4640 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 15: SUCCESSFUL
+Time: 4860 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 16: SUCCESSFUL
+Time: 5080 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 17: SUCCESSFUL
+Time: 5300 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 18: SUCCESSFUL
+Time: 5520 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 19: SUCCESSFUL
+Time: 5740 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 20: SUCCESSFUL
+Time: 5960 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 21: SUCCESSFUL
+Time: 6180 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 22: SUCCESSFUL
+Time: 6400 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 23: SUCCESSFUL
+Time: 6620 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 24: SUCCESSFUL
+Time: 6840 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 25: SUCCESSFUL
+Time: 7060 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 26: SUCCESSFUL
+Time: 7280 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 27: SUCCESSFUL
+Time: 7500 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 28: SUCCESSFUL
+Time: 7720 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 29: SUCCESSFUL
+Time: 7940 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 30: SUCCESSFUL
+Time: 8160 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 31: SUCCESSFUL
+Time: 8380 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 32: SUCCESSFUL
+Time: 8600 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 33: SUCCESSFUL
+Time: 8820 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 34: SUCCESSFUL
+Time: 9040 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 35: SUCCESSFUL
+Time: 9260 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 36: SUCCESSFUL
+Time: 9480 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 37: SUCCESSFUL
+Time: 9700 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 38: SUCCESSFUL
+Time: 9920 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 39: SUCCESSFUL
+Time: 10140 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 40: SUCCESSFUL
+Time: 10360 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 41: SUCCESSFUL
+Time: 10580 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 42: SUCCESSFUL
+Time: 10800 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 43: SUCCESSFUL
+Time: 11020 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 44: SUCCESSFUL
+Time: 11240 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 45: SUCCESSFUL
+Time: 11460 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 46: SUCCESSFUL
+Time: 11680 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 47: SUCCESSFUL
+Time: 11900 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 48: SUCCESSFUL
+Time: 12120 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 49: SUCCESSFUL
+Time: 12340 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 50: SUCCESSFUL
+Time: 12560 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 51: SUCCESSFUL
+Time: 12780 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 52: SUCCESSFUL
+Time: 13 us  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 53: SUCCESSFUL
+Time: 13220 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 54: SUCCESSFUL
+Time: 13440 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 55: SUCCESSFUL
+Time: 13660 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 56: SUCCESSFUL
+Time: 13880 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 57: SUCCESSFUL
+Time: 14100 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 58: SUCCESSFUL
+Time: 14320 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 59: SUCCESSFUL
+Time: 14540 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 60: SUCCESSFUL
+Time: 14760 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 61: SUCCESSFUL
+Time: 14980 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 62: SUCCESSFUL
+Time: 15200 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 63: SUCCESSFUL
+Time: 15420 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 64: SUCCESSFUL
+Time: 15640 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 65: SUCCESSFUL
+Time: 15860 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 66: SUCCESSFUL
+Time: 16080 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 67: SUCCESSFUL
+Time: 16300 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 68: SUCCESSFUL
+Time: 16520 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 69: SUCCESSFUL
+Time: 16740 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 70: SUCCESSFUL
+Time: 16960 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 71: SUCCESSFUL
+Time: 17180 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 72: SUCCESSFUL
+Time: 17400 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 73: SUCCESSFUL
+Time: 17620 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 74: SUCCESSFUL
+Time: 17840 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 75: SUCCESSFUL
+Time: 18060 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 76: SUCCESSFUL
+Time: 18280 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 77: SUCCESSFUL
+Time: 18500 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 78: SUCCESSFUL
+Time: 18720 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 79: SUCCESSFUL
+Time: 18940 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 80: SUCCESSFUL
+Time: 19160 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 81: SUCCESSFUL
+Time: 19380 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 82: SUCCESSFUL
+Time: 19600 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 83: SUCCESSFUL
+Time: 19820 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 84: SUCCESSFUL
+Time: 20040 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 85: SUCCESSFUL
+Time: 20260 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 86: SUCCESSFUL
+Time: 20480 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 87: SUCCESSFUL
+Time: 20700 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 88: SUCCESSFUL
+Time: 20920 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 89: SUCCESSFUL
+Time: 21140 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 90: SUCCESSFUL
+Time: 21360 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 91: SUCCESSFUL
+Time: 21580 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 92: SUCCESSFUL
+Time: 21800 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 93: SUCCESSFUL
+Time: 22020 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 94: SUCCESSFUL
+Time: 22240 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 95: SUCCESSFUL
+Time: 22460 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 96: SUCCESSFUL
+Time: 22680 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 97: SUCCESSFUL
+Time: 22900 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 98: SUCCESSFUL
+Time: 23120 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 99: SUCCESSFUL
+Time: 23340 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 100: SUCCESSFUL
+Time: 23560 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 101: SUCCESSFUL
+Time: 23780 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 102: SUCCESSFUL
+Time: 24 us  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 103: SUCCESSFUL
+Time: 24220 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 104: SUCCESSFUL
+Time: 24440 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 105: SUCCESSFUL
+Time: 24660 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 106: SUCCESSFUL
+Time: 24880 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 107: SUCCESSFUL
+Time: 25100 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 108: SUCCESSFUL
+Time: 25320 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 109: SUCCESSFUL
+Time: 25540 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 110: SUCCESSFUL
+Time: 25760 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 111: SUCCESSFUL
+Time: 25980 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 112: SUCCESSFUL
+Time: 26200 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 113: SUCCESSFUL
+Time: 26420 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 114: SUCCESSFUL
+Time: 26640 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 115: SUCCESSFUL
+Time: 26860 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 116: SUCCESSFUL
+Time: 27080 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 117: SUCCESSFUL
+Time: 27300 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 118: SUCCESSFUL
+Time: 27520 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 119: SUCCESSFUL
+Time: 27740 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 120: SUCCESSFUL
+Time: 27960 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 121: SUCCESSFUL
+Time: 28180 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 122: SUCCESSFUL
+Time: 28400 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 123: SUCCESSFUL
+Time: 28620 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 124: SUCCESSFUL
+Time: 28840 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 125: SUCCESSFUL
+Time: 29060 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 126: SUCCESSFUL
+Time: 29280 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 127: SUCCESSFUL
+Time: 29500 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 128: SUCCESSFUL
+Time: 29720 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 129: SUCCESSFUL
+Time: 29940 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 130: SUCCESSFUL
+Time: 30160 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 131: SUCCESSFUL
+Time: 30380 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 132: SUCCESSFUL
+Time: 30600 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 133: SUCCESSFUL
+Time: 30820 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 134: SUCCESSFUL
+Time: 31040 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 135: SUCCESSFUL
+Time: 31260 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 136: SUCCESSFUL
+Time: 31480 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 137: SUCCESSFUL
+Time: 31700 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 138: SUCCESSFUL
+Time: 31920 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 139: SUCCESSFUL
+Time: 32140 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 140: SUCCESSFUL
+Time: 32360 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 141: SUCCESSFUL
+Time: 32580 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 142: SUCCESSFUL
+Time: 32800 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 143: SUCCESSFUL
+Time: 33020 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 144: SUCCESSFUL
+Time: 33240 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 145: SUCCESSFUL
+Time: 33460 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 146: SUCCESSFUL
+Time: 33680 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 147: SUCCESSFUL
+Time: 33900 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 148: SUCCESSFUL
+Time: 34120 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 149: SUCCESSFUL
+Time: 34340 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 150: SUCCESSFUL
+Time: 34560 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 151: SUCCESSFUL
+Time: 34780 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 152: SUCCESSFUL
+Time: 35 us  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 153: SUCCESSFUL
+Time: 35220 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 154: SUCCESSFUL
+Time: 35440 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 155: SUCCESSFUL
+Time: 35660 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 156: SUCCESSFUL
+Time: 35880 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 157: SUCCESSFUL
+Time: 36100 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 158: SUCCESSFUL
+Time: 36320 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 159: SUCCESSFUL
+Time: 36540 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 160: SUCCESSFUL
+Time: 36760 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 161: SUCCESSFUL
+Time: 36980 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 162: SUCCESSFUL
+Time: 37200 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 163: SUCCESSFUL
+Time: 37420 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 164: SUCCESSFUL
+Time: 37640 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 165: SUCCESSFUL
+Time: 37860 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 166: SUCCESSFUL
+Time: 38080 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 167: SUCCESSFUL
+Time: 38300 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 168: SUCCESSFUL
+Time: 38520 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 169: SUCCESSFUL
+Time: 38740 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 170: SUCCESSFUL
+Time: 38960 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 171: SUCCESSFUL
+Time: 39180 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 172: SUCCESSFUL
+Time: 39400 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 173: SUCCESSFUL
+Time: 39620 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 174: SUCCESSFUL
+Time: 39840 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 175: SUCCESSFUL
+Time: 40060 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 176: SUCCESSFUL
+Time: 40280 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 177: SUCCESSFUL
+Time: 40500 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 178: SUCCESSFUL
+Time: 40720 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 179: SUCCESSFUL
+Time: 40940 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 180: SUCCESSFUL
+Time: 41160 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 181: SUCCESSFUL
+Time: 41380 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 182: SUCCESSFUL
+Time: 41600 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 183: SUCCESSFUL
+Time: 41820 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 184: SUCCESSFUL
+Time: 42040 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 185: SUCCESSFUL
+Time: 42260 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 186: SUCCESSFUL
+Time: 42480 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 187: SUCCESSFUL
+Time: 42700 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 188: SUCCESSFUL
+Time: 42920 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 189: SUCCESSFUL
+Time: 43140 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 190: SUCCESSFUL
+Time: 43360 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 191: SUCCESSFUL
+Time: 43580 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 192: SUCCESSFUL
+Time: 43800 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 193: SUCCESSFUL
+Time: 44020 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 194: SUCCESSFUL
+Time: 44240 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 195: SUCCESSFUL
+Time: 44460 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 196: SUCCESSFUL
+Time: 44680 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 197: SUCCESSFUL
+Time: 44900 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 198: SUCCESSFUL
+Time: 45120 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 199: SUCCESSFUL
+Time: 45340 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 200: SUCCESSFUL
+Time: 45560 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 201: SUCCESSFUL
+Time: 45780 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 202: SUCCESSFUL
+Time: 46 us  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 203: SUCCESSFUL
+Time: 46220 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 204: SUCCESSFUL
+Time: 46440 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 205: SUCCESSFUL
+Time: 46660 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 206: SUCCESSFUL
+Time: 46880 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 207: SUCCESSFUL
+Time: 47100 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 208: SUCCESSFUL
+Time: 47320 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 209: SUCCESSFUL
+Time: 47540 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 210: SUCCESSFUL
+Time: 47760 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 211: SUCCESSFUL
+Time: 47980 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 212: SUCCESSFUL
+Time: 48200 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 213: SUCCESSFUL
+Time: 48420 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 214: SUCCESSFUL
+Time: 48640 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 215: SUCCESSFUL
+Time: 48860 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 216: SUCCESSFUL
+Time: 49080 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 217: SUCCESSFUL
+Time: 49300 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 218: SUCCESSFUL
+Time: 49520 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 219: SUCCESSFUL
+Time: 49740 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 220: SUCCESSFUL
+Time: 49960 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 221: SUCCESSFUL
+Time: 50180 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 222: SUCCESSFUL
+Time: 50400 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 223: SUCCESSFUL
+Time: 50620 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 224: SUCCESSFUL
+Time: 50840 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 225: SUCCESSFUL
+Time: 51060 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 226: SUCCESSFUL
+Time: 51280 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 227: SUCCESSFUL
+Time: 51500 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 228: SUCCESSFUL
+Time: 51720 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 229: SUCCESSFUL
+Time: 51940 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 230: SUCCESSFUL
+Time: 52160 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 231: SUCCESSFUL
+Time: 52380 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 232: SUCCESSFUL
+Time: 52600 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 233: SUCCESSFUL
+Time: 52820 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 234: SUCCESSFUL
+Time: 53040 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 235: SUCCESSFUL
+Time: 53260 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 236: SUCCESSFUL
+Time: 53480 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 237: SUCCESSFUL
+Time: 53700 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 238: SUCCESSFUL
+Time: 53920 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 239: SUCCESSFUL
+Time: 54140 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 240: SUCCESSFUL
+Time: 54360 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 241: SUCCESSFUL
+Time: 54580 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 242: SUCCESSFUL
+Time: 54800 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 243: SUCCESSFUL
+Time: 55020 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 244: SUCCESSFUL
+Time: 55240 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 245: SUCCESSFUL
+Time: 55460 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 246: SUCCESSFUL
+Time: 55680 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 247: SUCCESSFUL
+Time: 55900 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 248: SUCCESSFUL
+Time: 56120 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 249: SUCCESSFUL
+Time: 56340 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 250: SUCCESSFUL
+Time: 56560 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 251: SUCCESSFUL
+Time: 56780 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 252: SUCCESSFUL
+Time: 57 us  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 253: SUCCESSFUL
+Time: 57220 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 254: SUCCESSFUL
+Time: 57440 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarKey256 file 255: SUCCESSFUL
+Time: 57660 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 0: SUCCESSFUL
+Time: 57880 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 1: SUCCESSFUL
+Time: 58100 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 2: SUCCESSFUL
+Time: 58320 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 3: SUCCESSFUL
+Time: 58540 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 4: SUCCESSFUL
+Time: 58760 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 5: SUCCESSFUL
+Time: 58980 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 6: SUCCESSFUL
+Time: 59200 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 7: SUCCESSFUL
+Time: 59420 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 8: SUCCESSFUL
+Time: 59640 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 9: SUCCESSFUL
+Time: 59860 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 10: SUCCESSFUL
+Time: 60080 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 11: SUCCESSFUL
+Time: 60300 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 12: SUCCESSFUL
+Time: 60520 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 13: SUCCESSFUL
+Time: 60740 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 14: SUCCESSFUL
+Time: 60960 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 15: SUCCESSFUL
+Time: 61180 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 16: SUCCESSFUL
+Time: 61400 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 17: SUCCESSFUL
+Time: 61620 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 18: SUCCESSFUL
+Time: 61840 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 19: SUCCESSFUL
+Time: 62060 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 20: SUCCESSFUL
+Time: 62280 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 21: SUCCESSFUL
+Time: 62500 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 22: SUCCESSFUL
+Time: 62720 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 23: SUCCESSFUL
+Time: 62940 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 24: SUCCESSFUL
+Time: 63160 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 25: SUCCESSFUL
+Time: 63380 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 26: SUCCESSFUL
+Time: 63600 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 27: SUCCESSFUL
+Time: 63820 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 28: SUCCESSFUL
+Time: 64040 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 29: SUCCESSFUL
+Time: 64260 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 30: SUCCESSFUL
+Time: 64480 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 31: SUCCESSFUL
+Time: 64700 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 32: SUCCESSFUL
+Time: 64920 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 33: SUCCESSFUL
+Time: 65140 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 34: SUCCESSFUL
+Time: 65360 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 35: SUCCESSFUL
+Time: 65580 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 36: SUCCESSFUL
+Time: 65800 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 37: SUCCESSFUL
+Time: 66020 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 38: SUCCESSFUL
+Time: 66240 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 39: SUCCESSFUL
+Time: 66460 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 40: SUCCESSFUL
+Time: 66680 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 41: SUCCESSFUL
+Time: 66900 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 42: SUCCESSFUL
+Time: 67120 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 43: SUCCESSFUL
+Time: 67340 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 44: SUCCESSFUL
+Time: 67560 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 45: SUCCESSFUL
+Time: 67780 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 46: SUCCESSFUL
+Time: 68 us  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 47: SUCCESSFUL
+Time: 68220 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 48: SUCCESSFUL
+Time: 68440 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 49: SUCCESSFUL
+Time: 68660 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 50: SUCCESSFUL
+Time: 68880 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 51: SUCCESSFUL
+Time: 69100 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 52: SUCCESSFUL
+Time: 69320 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 53: SUCCESSFUL
+Time: 69540 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 54: SUCCESSFUL
+Time: 69760 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 55: SUCCESSFUL
+Time: 69980 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 56: SUCCESSFUL
+Time: 70200 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 57: SUCCESSFUL
+Time: 70420 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 58: SUCCESSFUL
+Time: 70640 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 59: SUCCESSFUL
+Time: 70860 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 60: SUCCESSFUL
+Time: 71080 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 61: SUCCESSFUL
+Time: 71300 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 62: SUCCESSFUL
+Time: 71520 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 63: SUCCESSFUL
+Time: 71740 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 64: SUCCESSFUL
+Time: 71960 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 65: SUCCESSFUL
+Time: 72180 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 66: SUCCESSFUL
+Time: 72400 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 67: SUCCESSFUL
+Time: 72620 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 68: SUCCESSFUL
+Time: 72840 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 69: SUCCESSFUL
+Time: 73060 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 70: SUCCESSFUL
+Time: 73280 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 71: SUCCESSFUL
+Time: 73500 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 72: SUCCESSFUL
+Time: 73720 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 73: SUCCESSFUL
+Time: 73940 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 74: SUCCESSFUL
+Time: 74160 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 75: SUCCESSFUL
+Time: 74380 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 76: SUCCESSFUL
+Time: 74600 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 77: SUCCESSFUL
+Time: 74820 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 78: SUCCESSFUL
+Time: 75040 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 79: SUCCESSFUL
+Time: 75260 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 80: SUCCESSFUL
+Time: 75480 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 81: SUCCESSFUL
+Time: 75700 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 82: SUCCESSFUL
+Time: 75920 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 83: SUCCESSFUL
+Time: 76140 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 84: SUCCESSFUL
+Time: 76360 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 85: SUCCESSFUL
+Time: 76580 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 86: SUCCESSFUL
+Time: 76800 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 87: SUCCESSFUL
+Time: 77020 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 88: SUCCESSFUL
+Time: 77240 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 89: SUCCESSFUL
+Time: 77460 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 90: SUCCESSFUL
+Time: 77680 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 91: SUCCESSFUL
+Time: 77900 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 92: SUCCESSFUL
+Time: 78120 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 93: SUCCESSFUL
+Time: 78340 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 94: SUCCESSFUL
+Time: 78560 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 95: SUCCESSFUL
+Time: 78780 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 96: SUCCESSFUL
+Time: 79 us  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 97: SUCCESSFUL
+Time: 79220 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 98: SUCCESSFUL
+Time: 79440 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 99: SUCCESSFUL
+Time: 79660 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 100: SUCCESSFUL
+Time: 79880 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 101: SUCCESSFUL
+Time: 80100 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 102: SUCCESSFUL
+Time: 80320 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 103: SUCCESSFUL
+Time: 80540 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 104: SUCCESSFUL
+Time: 80760 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 105: SUCCESSFUL
+Time: 80980 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 106: SUCCESSFUL
+Time: 81200 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 107: SUCCESSFUL
+Time: 81420 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 108: SUCCESSFUL
+Time: 81640 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 109: SUCCESSFUL
+Time: 81860 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 110: SUCCESSFUL
+Time: 82080 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 111: SUCCESSFUL
+Time: 82300 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 112: SUCCESSFUL
+Time: 82520 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 113: SUCCESSFUL
+Time: 82740 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 114: SUCCESSFUL
+Time: 82960 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 115: SUCCESSFUL
+Time: 83180 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 116: SUCCESSFUL
+Time: 83400 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 117: SUCCESSFUL
+Time: 83620 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 118: SUCCESSFUL
+Time: 83840 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 119: SUCCESSFUL
+Time: 84060 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 120: SUCCESSFUL
+Time: 84280 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 121: SUCCESSFUL
+Time: 84500 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 122: SUCCESSFUL
+Time: 84720 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 123: SUCCESSFUL
+Time: 84940 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 124: SUCCESSFUL
+Time: 85160 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 125: SUCCESSFUL
+Time: 85380 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 126: SUCCESSFUL
+Time: 85600 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBVarTxt256 file 127: SUCCESSFUL
+Time: 85820 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBKeySbox256 file 0: SUCCESSFUL
+Time: 86040 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBKeySbox256 file 1: SUCCESSFUL
+Time: 86260 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBKeySbox256 file 2: SUCCESSFUL
+Time: 86480 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBKeySbox256 file 3: SUCCESSFUL
+Time: 86700 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBKeySbox256 file 4: SUCCESSFUL
+Time: 86920 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBKeySbox256 file 5: SUCCESSFUL
+Time: 87140 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBKeySbox256 file 6: SUCCESSFUL
+Time: 87360 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBKeySbox256 file 7: SUCCESSFUL
+Time: 87580 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBKeySbox256 file 8: SUCCESSFUL
+Time: 87800 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBKeySbox256 file 9: SUCCESSFUL
+Time: 88020 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBKeySbox256 file 10: SUCCESSFUL
+Time: 88240 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBKeySbox256 file 11: SUCCESSFUL
+Time: 88460 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBKeySbox256 file 12: SUCCESSFUL
+Time: 88680 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBKeySbox256 file 13: SUCCESSFUL
+Time: 88900 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBKeySbox256 file 14: SUCCESSFUL
+Time: 89120 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: ECBKeySbox256 file 15: SUCCESSFUL
+Time: 89340 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Note: --------------Simulation completed--------------
+Time: 89340 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+Failure: --------------Testbench completed--------------
+Time: 89340 ns  Iteration: 0  Process: /tb_aes_encrypt_256/test_process  File: /home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd
+$finish called at time : 89340 ns : File "/home/murat/Documents/Uygulamalar/vivado/my_projects/aes_encrypt_256/aes_encrypt_256/aes_encrypt_256.srcs/sim_1/new/tb_aes_encrypt_256.vhd" Line 433
+
