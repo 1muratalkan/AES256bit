@@ -1,6 +1,6 @@
 # AES 256 BIT ENCRYPTION ALGORITHM ON FPGA
 
-1. IP PLANE 
+1. IP PLAN
 ![2](https://github.com/1muratalkan/AES256bit/blob/main/aes_encrypt_256/Images/AES256_IP_PLAN.png)
 
 2. AES BLOCK SCHEMA
