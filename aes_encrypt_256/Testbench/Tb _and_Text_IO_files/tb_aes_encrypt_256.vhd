@@ -139,28 +139,26 @@ begin
                  end if;
                  
                 --  
-                wait for clk_period; wait for clk_period;wait for clk_period;wait for clk_period;
-                plain_text_i <= PLAINTEXT; 
+                plain_text_i <= PLAINTEXT;
                 plain_text_vld_i <= '1';  
                 wait for clk_period;
                 plain_text_i <= (others => '0');
                 plain_text_vld_i <= '0';
                 wait for clk_period;
-                wait for clk_period;wait for clk_period;wait for clk_period; wait for clk_period;wait for clk_period;wait for clk_period;
                 key_vld_i <= '1';
                 key_i <= KEY(255 downto 128);--  
                 wait for clk_period;
                 key_i <= KEY(127 downto 0);--
-                plain_text_i <= PLAINTEXT;
+                key_vld_i <= '1';
                 wait for clk_period;
                 key_i <= (others => '0');
                 key_vld_i <= '0';
-                key_i <= KEY(127 downto 0);--
-                wait for clk_period*20;     
+                wait for clk_period*15;     
                 cipher_text_ready_i <= '1';
                 wait for clk_period;
-                wait for clk_period;wait for clk_period; wait for clk_period;wait for clk_period;wait for clk_period;
+                wait for clk_period;
                 cipher_text_ready_i <= '0'; 
+                wait for clk_period;
                 --
             
                if cipher_text_o = CIPHERTEXT then
